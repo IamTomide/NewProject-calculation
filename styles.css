@@ -1,0 +1,52 @@
+*{
+    font-size: 1.3rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #023541;
+    color: #e0dfdf;
+    
+}
+
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #000623;
+}
+
+.input-field{
+    width: 50%;
+    text-align: center;
+    margin: 5rem auto;
+    padding: 3rem 0;
+    background-color: #e3e4e8;
+    color: #000623;
+    box-shadow: 10px 10px #0006235e;
+}
+input{
+    width: 4rem;
+    font-size: 1rem;
+    color: #000623;
+}
+
+label{
+    color: #000623;
+}
+
+button{
+    padding: 0.5rem;
+    color: white;
+    background-color:#000623;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #023541;
+    color: #9b8c8c;
+}
+.input-field p{
+    font-size: 1.5rem;
+}

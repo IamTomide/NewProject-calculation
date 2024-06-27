@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculating Inputs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <section>
+            <div class="heading">
+                <h1>Welcome!</h1>
+                <p>You can do Simple Calculations here &#128077; .</p>
+            </div>
+            <div class="input-field">
+                <label for="num1">Enter first number:</label>
+                <input type="number" id="num1" name="num1" placeholder="0"><br><br>
+                <select name="operation" id="operationList">
+                    <option value="addition" id="addition">&plus;</option>
+                    <option value="subtraction" id="subtraction">&minus;</option>
+                    <option value="division" id="division">&divide;</option>
+                    <option value="multiplication">&times;</option>
+                </select><br><br>
+                <label for="num2">Enter second number:</label>
+                <input type="number" id="num2" name="num2" placeholder="0"><br><br>
+                <button id="getoutput">Get Answer</button>
+                <p>Answer = <span id="input-text">?</span></p>
+
+            </div>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>
